@@ -1,6 +1,5 @@
-class Node: #cada nó terá duas ramificações
+class Node: #Definição da classe Node, em que cada nó terá o perfil de ter duas ramificações
     def __init__(self, data): #metodo de inicialização que recebe um dado a ser armazenado
-#
         self.data = data
         self.left = None #left e right porque as arvores binárias possuem sempre dois filhos para nós
         self.right = None
